@@ -1,0 +1,91 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+body { 
+    font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 24px;
+    
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Abel', sans-serif;
+	font-weight: 400;
+}
+.header {
+    background: url('../img/header-bg.jpg') no-repeat center top;
+}
+.menu__list {
+    list-style-type: none;
+}
+.menu__list-link {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 150px;
+}
+.menu__list {
+    display: flex;
+    padding-bottom: 100px;
+}
+.logo__link {
+    padding-top: 25px;
+}
+.menu__item {
+    margin: 0 45px;
+    font-size: 12px;
+    line-height: 18px;
+}
+.offer__header {
+    display: flex;
+    justify-content: space-between;
+}
+.vertical__text {
+    writing-mode: vertical-rl;
+	 -webkit-transform:rotate(-180deg);
+     font-size: 12px;
+     line-height: 12px;
+     width: 20%;
+}
+.center__name {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+.tile_text {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+}
+.tile_hungry {
+    font-size: 96px;
+    text-transform: uppercase;
+}
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: flex-end;
+}
